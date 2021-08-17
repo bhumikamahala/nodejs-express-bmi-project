@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <style>
+     *{
+        font-family: 'Josefin Sans', sans-serif;
+     }
+      
+    div{
+        background-color: rgba(235, 54, 205, 0.596);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    input{
+        color: black;
+        font-weight: bolder;
+        width: 128%;
+        height: 25%;
+        border: 1px solid black ;
+    }
+
+     h1{
+         margin-left: 20px;
+     }
+
+    button{
+        margin-left: 30px;
+        color: black;
+        font-weight: bolder;
+        font: 400;
+        width: 80%;
+        height: 40%;
+        border: 1px solid black ;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: azure;
+    }
+
+    </style>
+    <title> BMI Calculator </title>
+</head>
+<body>
+   <div class="centerdiv">
+       <h1>BMI Calculator</h1>
+    
+    <form method="post"  >
+        <input type="text" name="weight" placeholder="Enter your Weight ">
+        <br>
+        <br>
+        <input type="text" name="height" placeholder="Enter your Heighr( in Metre) ">
+        <br>
+        <br>
+        <button type="submit">Calculate BMI</button>
+    </form>
+    </div>
+</body>
+</html>
